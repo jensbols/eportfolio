@@ -5,7 +5,7 @@ export default function HeroSection() {
     <>
       <div style={{ backgroundImage: `url(${bgimage})`, backgroundSize: 'cover' }} className="overflow-hidden max-w-7xl mx-auto">
       {/* left */}
-        <div className="float-left w-1/2 py-20 text-center items-center mt-20">
+        <div className="float-left w-2/3 py-20 text-center items-center mt-20">
           <h1 className='text-5xl font-bold mb-2 bg-clip-text text-green-600'>Hi i'm Jens</h1>
           <p className='text-gray-700 text-lg mb-8'>I'm a computer science student located in Gent, Belgium</p>
 
@@ -16,7 +16,7 @@ export default function HeroSection() {
         </div>
 
       {/* right */}
-        <div className='float-right w-1/2 py-20 px-5 items-center'>
+        <div className='float-right w-1/3 py-20 px-5 items-center'>
           <img src={face} alt="face" className='rounded-xl'></img>
         </div>
       </div>

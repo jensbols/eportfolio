@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="max-w-7xl mx-auto bg-gray-100">
+    <footer className="max-w-7xl mx-auto bg-transparent">
       <div className="py-4 border-b-4 border-yellow-400 space-x-6 flex justify-center mx-10">
         <a className="text-2xl font-semibold" href="#">Home</a>
         <a className="text-2xl font-semibold" href="#">Skills</a>

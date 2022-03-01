@@ -22,7 +22,7 @@ export default function NavBar() {
           </div>
           {/* Contact */}
           <div className="hidden md:flex items-center">
-            <a href="#" className="py-2 px-3 text-yellow-900 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition duration-300">Contact</a>
+            <a href="#" className="py-2 px-3 text-white bg-blue-500 hover:bg-blue-400 hover:text-white rounded transition duration-300">Contact</a>
           </div>
 
           {/* mobile button goes here */}

@@ -8,7 +8,7 @@ import background from './images/scattered-forcefields.svg';
 
 function App() {
   return (
-    <div className="App bg-green-100">
+    <div className="App">
       <NavBar />
       <HeroSection />
       <ProjectSection />

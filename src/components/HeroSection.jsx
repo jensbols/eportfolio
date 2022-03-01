@@ -6,10 +6,10 @@ export default function HeroSection() {
     <>
       <div className="overflow-hidden max-w-7xl mx-auto bg-transparent">
       {/* left */}
-        <div className="float-left w-1/2 py-5 px-10 text-left items-center mt-20">
+        <div className="float-left w-3/6 py-5 px-10 text-left items-center mt-20">
           <h2 className='text-lg font-bold mb-2 bg-clip-text ml-1 text-blue-500'>Hi, my name is</h2>
           <h1 className='text-gray-900 text-5xl font-bold pb-3'>Jens Bols.</h1>
-          <h2 className='text-gray-700 text-4xl font-bold mb-5'>I build applications for the web.</h2>
+          <h2 className='text-4xl font-bold mb-5'>I build applications for the web.</h2>
           <p className='text-gray-700 text-lg mb-8'>I'm a computer science student located in Gent, Belgium. <br /> I aspire to become a full stack webdeveloper</p>
 
           <div className="space-x-2">
@@ -19,8 +19,8 @@ export default function HeroSection() {
         </div>
 
       {/* right */}
-        <div className='float-right w-1/2 py-20 px-5 items-center'>
-          <img src={face} alt="face" className='rounded-xl'></img>
+        <div className='float-right w-2/5 py-20 pl-16 items-center mt-7 mr-7'>
+          <img src={face} alt="face" className='rounded-md border-r-8 border-b-8 border-blue-500'></img>
         </div>
       </div>
     </>

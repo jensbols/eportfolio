@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="max-w-7xl mx-auto bg-gray-300">
-      <div className="py-4 border-b-4 border-blue-500 space-x-6 flex justify-center mx-10">
-        <a className="text-2xl font-light" href="#">Home</a>
-        <a className="text-2xl font-light" href="#">Skills</a>
-        <a className="text-2xl font-light" href="#">Projects</a>
+    <footer className="max-w-7xl mx-auto bg-gray-100">
+      <div className="py-4 border-b-4 border-yellow-400 space-x-6 flex justify-center mx-10">
+        <a className="text-2xl font-semibold" href="#">Home</a>
+        <a className="text-2xl font-semibold" href="#">Skills</a>
+        <a className="text-2xl font-semibold" href="#">Projects</a>
       </div>
       <div className="mt-5 mx-5 text-center pb-10">
         <p>

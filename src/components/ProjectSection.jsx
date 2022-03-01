@@ -3,7 +3,7 @@ import github from '../images/GitHub-Logo.png';
 export default function ProjectSection() {
   return (
     <>
-      <div className="max-w-7xl mx-auto flex pt-16 pb-20">
+      <div className="max-w-7xl mx-auto flex pt-16 pb-20 bg-gray-200">
         {/* left */}
         <div className="w-2/3 ">
           <h3 className='text-3xl font-bold text-left px-16'>My Projects</h3>

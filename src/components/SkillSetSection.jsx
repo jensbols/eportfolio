@@ -12,6 +12,8 @@ export default function SkillSetSection() {
         <ProgressBar completed={65} bgColor={"#111827"} />
         <p className="mt-2 mb-1">Javascript</p>
         <ProgressBar completed={70} bgColor={"#111827"} />
+        <p className="mt-2 mb-1">MySQL</p>
+        <ProgressBar completed={70} bgColor={"#111827"} />
         <p className="text-xs mt-5">More coming soon...</p>
       </div>
     </div>

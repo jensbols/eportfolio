@@ -18,7 +18,7 @@ export default function Services() {
     <div className="max-w-full mt-10">
       <h1 className="max-w-7xl mx-auto text-center text-5xl mb-10 text-gray-900 font-bold">Services I Provide My Clients</h1>
       <div className="max-w-7xl mx-auto flex space-x-12 px-8">
-        <div className="rounded-xl w-1/3  px-16 py-10 bg-gray-900 border-l-8 border-blue-500">
+        <div className="rounded-xl w-1/3  px-16 py-10 bg-gray-900 border-l-8 border-b-8 border-blue-500">
 
           <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" viewBox="0 0 20 20" fill="currentColor">
             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
@@ -30,7 +30,7 @@ export default function Services() {
           <ServiceListItem itemName="React" />
           <ServiceListItem itemName="Wordpress" />
         </div>
-        <div className="rounded-xl w-1/3 bg-gray-900 border-l-8 border-blue-500 px-16 py-10">
+        <div className="rounded-xl w-1/3 bg-gray-900 border-l-8 border-b-8 border-blue-500 px-16 py-10">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" viewBox="0 0 20 20" fill="currentColor">
             <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
             <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
@@ -44,7 +44,7 @@ export default function Services() {
           <ServiceListItem itemName="Swagger" />
           <ServiceListItem itemName="GraphQL" />
         </div>
-        <div className="rounded-xl w-1/3 p-20 bg-gray-900 border-l-8 border-blue-500 px-14 py-10">
+        <div className="rounded-xl w-1/3 p-20 bg-gray-900 border-l-8 border-blue-500 border-b-8 px-14 py-10">
 
           <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z" clip-rule="evenodd" />

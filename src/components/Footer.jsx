@@ -1,5 +1,6 @@
 export default function Footer() {
   return (
+    <>
     <footer className="max-w-7xl mx-auto bg-transparent">
       <div className="py-4 border-b-4 border-blue-500 space-x-6 flex justify-center mx-10">
         <a className="text-2xl font-semibold" href="#">Home</a>
@@ -11,6 +12,11 @@ export default function Footer() {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </div>
+      
     </footer>
+    <div className="max-w-full bg-blue-500 text-center text-white font-medium">
+    <p className="text-lg">Copyright &copy; 2022 Jens Bols. All Rights Reserved.</p>
+  </div>
+  </>
   )
 }

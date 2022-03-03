@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [showMobileMenu, setShowMenu] = useState(false);
@@ -11,13 +12,11 @@ export default function NavBar() {
           <div className="flex space-x-4">
               {/* Logo */}
               <div>
-                <a href="#" className="flex items-center py-5 px-2 text-gray-700 font-bold hover:text-gray-900">Home</a>
+                <Link to="/" className="flex items-center py-5 px-2 text-gray-700 font-bold hover:text-gray-900">Home</Link>
               </div>
               {/* Pages */}
               <div className="hidden md:flex items-center space-x-1">
-                <a href="#" className="py-5 px-3 text-gray-700 hover:text-gray-900">About</a> 
-                <a href="#" className="py-5 px-3 text-gray-700 hover:text-gray-900">Projects</a>
-                <a href="#" className="py-5 px-3 text-gray-700 hover:text-gray-900">Skillset</a>
+                <Link to="/blog" className="py-5 px-3 text-gray-700 hover:text-gray-900">Blog</Link> 
               </div>
           </div>
           {/* Contact */}
